@@ -1,0 +1,18 @@
+
+# SASS/SCSS #
+#############
+.sass-cache/
+.scss-cache/
+*.css.map
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+# Swap Files #
+##############
+*.swp
