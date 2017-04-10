@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- =======================
+                Metadata
+        ========================  -->
         <meta charset="UTF-8">
-        <title>Freelance Tax Life</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Freelance Tax Life </title>
+
+        <!-- =======================
+                Stylesheets
+        ========================  -->
+        <!-- Pure.css -->
+            <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+        <!-- Pure.css responsive grid -->
+            <!--[if lte IE 8]>
+                <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+            <![endif]-->
+            <!--[if gt IE 8]><!-->
+                <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+            <!--<![endif]-->
+            <!-- Pure slide menu -->
+                <link rel="stylesheet" href="https://purecss.io/css/layouts/side-menu.css" />
+        <!-- Custom Stylesheet -->
+            <link rel="stylesheet" href="css/style.css" />
+
+        <!-- =======================
+                Scripts
+        ========================  -->
+        <!-- JQuery -->
+            <script
+              src="https://code.jquery.com/jquery-3.2.1.min.js"
+              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+              crossorigin="anonymous"></script>
+        <!-- Pure UI -->
+            <script src="https://purecss.io/js/ui.js"></script>
+        <!-- Custom JavaScript -->
+            <script src="js/action.js"></script>
     </head>
 
     <body>
         <!-- ================
                  TOP
         ================= -->
-        <header>
+        <header class="pure-g">
             <h1>Freelance Tax Life</h1>
         </header>
 
         <!-- ================
                 MIDDLE
         ================== -->
-        <section>
+        <section class="pure-g">
             <!-- Left Side Menu -->
             <!-- TODO: Hide/Show functionality -->
-            <aside>
+            <aside class="pure-u-1-4" style="background: yellow;">
                 <!-- TODO: Change to dynamic username -->
                 <h3>Jerliyah Craig</h3>
                 <ul>
@@ -32,7 +66,7 @@
             </aside>
 
 
-            <main>
+            <main class="pure-u-3-4" style="background: blue;">
 
 
             </main>
@@ -42,7 +76,7 @@
         <!-- ================
                 BOTTOM
         ================= -->
-        <footer>
+        <footer class="pure-g">
             <h6>
                 We are using node <script>document.write(process.versions.node)</script>,
                 Chrome <script>document.write(process.versions.chrome)</script>,
